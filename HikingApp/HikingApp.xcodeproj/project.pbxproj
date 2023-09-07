@@ -11,6 +11,9 @@
 		2192748E2AAA865C001A5AE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2192748D2AAA865C001A5AE3 /* ContentView.swift */; };
 		219274902AAA865D001A5AE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2192748F2AAA865D001A5AE3 /* Assets.xcassets */; };
 		219274942AAA865D001A5AE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 219274932AAA865D001A5AE3 /* Preview Assets.xcassets */; };
+		2192749B2AAA8959001A5AE3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2192749A2AAA8959001A5AE3 /* CardView.swift */; };
+		2192749E2AAA8AE2001A5AE3 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2192749D2AAA8AE2001A5AE3 /* CustomBackgroundView.swift */; };
+		21F217EA2AAA8D3400525A3C /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F217E92AAA8D3400525A3C /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		2192748F2AAA865D001A5AE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		219274912AAA865D001A5AE3 /* HikingApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HikingApp.entitlements; sourceTree = "<group>"; };
 		219274932AAA865D001A5AE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2192749A2AAA8959001A5AE3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		2192749D2AAA8AE2001A5AE3 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		21F217E92AAA8D3400525A3C /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +58,13 @@
 		2192748A2AAA865C001A5AE3 /* HikingApp */ = {
 			isa = PBXGroup;
 			children = (
+				21F217E82AAA8D1100525A3C /* Utility */,
 				2192748B2AAA865C001A5AE3 /* HikingAppApp.swift */,
 				2192748D2AAA865C001A5AE3 /* ContentView.swift */,
 				2192748F2AAA865D001A5AE3 /* Assets.xcassets */,
 				219274912AAA865D001A5AE3 /* HikingApp.entitlements */,
 				219274922AAA865D001A5AE3 /* Preview Content */,
+				2192749C2AAA8AA5001A5AE3 /* Component */,
 			);
 			path = HikingApp;
 			sourceTree = "<group>";
@@ -67,6 +75,23 @@
 				219274932AAA865D001A5AE3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2192749C2AAA8AA5001A5AE3 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				2192749A2AAA8959001A5AE3 /* CardView.swift */,
+				2192749D2AAA8AE2001A5AE3 /* CustomBackgroundView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		21F217E82AAA8D1100525A3C /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				21F217E92AAA8D3400525A3C /* ColorExtension.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +165,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2192748E2AAA865C001A5AE3 /* ContentView.swift in Sources */,
+				2192749B2AAA8959001A5AE3 /* CardView.swift in Sources */,
 				2192748C2AAA865C001A5AE3 /* HikingAppApp.swift in Sources */,
+				2192749E2AAA8AE2001A5AE3 /* CustomBackgroundView.swift in Sources */,
+				21F217EA2AAA8D3400525A3C /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
