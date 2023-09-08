@@ -19,6 +19,7 @@
 		21F217F02AAA9BF200525A3C /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F217EF2AAA9BF200525A3C /* CustomCircleView.swift */; };
 		21F217F22AAA9D4B00525A3C /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F217F12AAA9D4B00525A3C /* MotionAnimationView.swift */; };
 		21F217F52AAAA6AF00525A3C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F217F42AAAA6AF00525A3C /* SettingsView.swift */; };
+		21F217F72AAAAF6B00525A3C /* CustomListRowview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F217F62AAAAF6B00525A3C /* CustomListRowview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		21F217EF2AAA9BF200525A3C /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 		21F217F12AAA9D4B00525A3C /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		21F217F42AAAA6AF00525A3C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		21F217F62AAAAF6B00525A3C /* CustomListRowview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRowview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				21F217EB2AAA927400525A3C /* CustomButtonView.swift */,
 				21F217EF2AAA9BF200525A3C /* CustomCircleView.swift */,
 				21F217F12AAA9D4B00525A3C /* MotionAnimationView.swift */,
+				21F217F62AAAAF6B00525A3C /* CustomListRowview.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F217F72AAAAF6B00525A3C /* CustomListRowview.swift in Sources */,
 				2192748E2AAA865C001A5AE3 /* ContentView.swift in Sources */,
 				21F217F02AAA9BF200525A3C /* CustomCircleView.swift in Sources */,
 				2192749B2AAA8959001A5AE3 /* CardView.swift in Sources */,

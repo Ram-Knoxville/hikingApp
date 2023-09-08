@@ -67,6 +67,27 @@ struct SettingsView: View {
             // MARK: - SECTION: ICONS
             
             //MARK: - SECTION: ABOUT
+            
+            Section(
+                header: Text("About the App"),
+                footer: HStack {
+                    Spacer()
+                    Text("Copyright © All rights reserved.")
+                    Spacer()
+                }
+                    .padding(.vertical, 8)
+            ) {
+                // 1. Basic label content
+//                LabeledContent("Application", value: "Hike")
+                // 2. Advanced labeled content
+                CustomListRowview(rowLabel: "Application", rowIcon: "apps.iphone", rowContent: "HIKE", rowTintColor: .blue)
+                CustomListRowview(rowLabel: "Compatibility", rowIcon: "info.circle", rowContent: "iOS, iPadOS", rowTintColor: .red)
+                CustomListRowview(rowLabel: "Technology", rowIcon: "swift", rowContent: "Swift", rowTintColor: .orange)
+                CustomListRowview(rowLabel: "Version", rowIcon: "gear", rowContent: "1.0", rowTintColor: .purple)
+                CustomListRowview(rowLabel: "Developer", rowIcon: "ellipsis.curlybraces", rowContent: "Ramiro Aguirre", rowTintColor: .mint)
+                CustomListRowview(rowLabel: "Designer", rowIcon: "paintpalette", rowContent: "Robert Petras", rowTintColor: .pink)
+                CustomListRowview(rowLabel: "Website", rowIcon: "globe", rowTintColor: .indigo, rowLinkLabel: "TeamPocketSoftware", rowLinkDestination: "http://carteldesanta.com")
+            }
         } //: List
         
     }
